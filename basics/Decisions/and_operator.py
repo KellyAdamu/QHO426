@@ -4,4 +4,4 @@ sight = input("What did I see? ")
 if noise == "grrr" and sight == "two red eyes":
     print("There is a scary creature. I should get out of here!")
 else:
-    print("I am a little scared, but I will continue.")
+    print("I am little scared, but I will continue.")

@@ -1,5 +1,5 @@
 #Declare a tuple
-x = ("Kelly", 38, True)
+x = ("Piotr", 62, True)
 y = tuple(["Gary", 23, False])
 #Print tuples
 print(x)
@@ -15,7 +15,7 @@ print(z)
 print(x)
 print(y)
 
-#use min and max functions on tuples
+#Use min and max functions on tuples
 t = (74, 35, 1, 83, 65, 62)
 print(max(t))
 print(min(t))

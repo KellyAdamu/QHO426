@@ -7,9 +7,8 @@ def animate(frame):
 
 def run():
     fig = plt.figure()
-    bob = a.FuncAnimation(fig, animate, interval=100, frames=12, repeat=False)
+    bob = a.FuncAnimation(fig, animate, interval=1000, frames=12, repeat=False)
     plt.show()
 
 
 run()
-

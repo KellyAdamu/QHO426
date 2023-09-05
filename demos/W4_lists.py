@@ -1,18 +1,18 @@
 #Declare empty list
 bleh = []
 meh = list()
-#Declare non-empty_list
+#Declare non-empty list
 yummy = ["chocolate", "pizza", "doughnouts", "subway"]
 #Print entire list
 print(yummy)
 #Print a single item
-print(yummy[1])
+print(yummy[-4])
 #Print some items off the list
 print(yummy[0:4:2])
 #Add elements to our list (expand it) - adding at the end of the list
 print(bleh)
 bleh.append("spinach")
-bleh.append("broccoli")
+bleh.append("brocolli")
 bleh.append("aubergine")
 bleh.append("pesto")
 print(bleh)
@@ -37,14 +37,10 @@ print(x, y)
 print(yummy)
 yummy[2] = "pancakes"
 print(yummy)
-#Check a list for a particular data typoe/traverse a list
+#Check a list for a partifcular data type/traverse a list
 lista = ["Fred", 56, True, 99.4, "Potato", False, 82]
 sum = 0
 for item in lista:
     if isinstance(item, int):
         sum += item
 print(sum)
-
-
-
-

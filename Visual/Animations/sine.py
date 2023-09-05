@@ -12,8 +12,7 @@ def animate(f):
     y = np.sin(x_rad)
     ax.plot(x,y)
 
-
 def run():
-        margaret = a.FuncAnimation(fig, animate, frames=720, interval=10)
-        plt.show()
+    margaret = a.FuncAnimation(fig, animate, frames=720, interval=10)
+    plt.show()
 run()

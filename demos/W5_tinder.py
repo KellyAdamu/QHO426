@@ -8,15 +8,16 @@ def interests():
             break
         s1.add(interest)
     return s1
-#print(interests())         (to test if works)
+
 def run():
     print("First person: ")
     p1 = interests()
     print("Second person: ")
-    p2: interests()
+    p2 = interests()
     common = p1.intersection(p2)
     if len(common) >= 3:
-        print(f"You are a match made in heaven! you have {len(common)} hobbies in common")
+        print(f"You are a match made in heaven! You have {len(common)} hobbies in common")
     else:
-        print(f"Oh no! It will probably not work. Find another human.")
+        print("Oh no! It will probably not work. Find other human.")
+
 run()

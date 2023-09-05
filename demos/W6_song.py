@@ -1,5 +1,5 @@
 #Open file for reading
-f = open("files/song.text")
+f = open("files/song.txt")
 #Print single line
 # print(f.readline(), end="")
 # print(f.readline(), end="")
@@ -14,6 +14,5 @@ g = open("files/song.txt", "a")
 #Write a single line into the end of the file
 g.write("\nAnd it's everlasting, infinite\n")
 #Write multiple lines into a file
-g.write(["It goes on and on, you can't measure it\n", "Can't quench yourr love\n"])
+g.writelines(["It goes on and on, you can't measure it\n", "Can't quench your love\n"])
 g.close()
-

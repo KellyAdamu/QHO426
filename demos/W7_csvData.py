@@ -21,11 +21,8 @@ def retrieve_data():
     return hs, ws
 
 def graph():
-    x, y = retrieve_data()
-    plt.plot(x, y, "b^-")
+    x,y = retrieve_data()
+    plt.plot(x, y, "gx--")
     plt.show()
 
 graph()
-
-
-

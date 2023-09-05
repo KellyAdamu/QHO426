@@ -9,12 +9,12 @@ def medium_pattern():
 
 
 def long_pattern():
-    pattern = {"sequence":"1100110011001100", "occurrences":50}
+    pattern = {"sequence":"1100110011001100", "occurrances":50}
     return pattern
 
 
-def pattern(s,p):
-    return {"sequence":s, "occurrences":0}
+def pattern(s,o):
+    return {"sequence":s, "occurances":o}
 
 
 def run():
@@ -22,4 +22,5 @@ def run():
     d = {"short pattern":short_pattern(), "medium pattern":medium_pattern(), "long pattern":long_pattern()}
     for k,v in d.items():
         print(f"{k}:{v}")
+
 run()

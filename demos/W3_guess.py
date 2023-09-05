@@ -1,7 +1,7 @@
-import random #Takind definitions from a package "random" into my scope
+import random #Taking definitions from a package "random" into my scope
 
-secret_n = random. randint(1,20)
-print("Welcome to my Guess Game! I am thinking of a number betwenn 1 and 20")
+secret_n = random.randint(1,20)
+print("Welcome to my Guess Game! I am thinking of number between 1 and 20")
 
 for attempts in range(1,6):
     print(f"Attempt nr {attempts}")
@@ -14,4 +14,4 @@ for attempts in range(1,6):
     else:
         print("Too low!")
 if guess != secret_n:
-    print(f"Game Over! My number was {secret_n}")
+    print(f"Game over! My number was {secret_n}")

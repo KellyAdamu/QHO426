@@ -1,15 +1,15 @@
 def dimensions():
     w = float(input("Enter width of the room: "))
-    l = float(input("Enter lenght of the room: "))
+    l = float(input("Enter length of the room: "))
     return l*w
 
 def r_name():
     return input("Enter room name: ")
 
 def price(name, area):
-    if name.lower() == "Bathroom":
+    if name.lower() == "bathroom":
         return 15*area
-    elif name.lower() == "Bedroom":
+    elif name.lower() == "bedroom":
         return 8*area
     else:
         return 10*area

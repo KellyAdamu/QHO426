@@ -1,4 +1,4 @@
-def adding(Lista = []):
+def adding(lista = []):
     new_member = input("Enter name of new avenger: ")
     lista.append(new_member)
 
@@ -7,17 +7,9 @@ def remove(lista = []):
     if rejected in lista:
         lista.remove(rejected)
 
-#Test
-#a = ["fred", "george", "harry", "anna"]
-#remove(a)
-#print(a)
-
 def printing(lista = []):
     for hero in lista:
-        print(f"The mighty {hero} is part of the avenggers!")
-#Test
-#x = ["Kelly", "Jerzy", "Viktorija", "Marius"]
-#printing(x)
+        print(f"The mighty {hero} is part of the avengers!")
 
 def run():
     avengers = []
@@ -35,6 +27,3 @@ def run():
             print("No such option. Go to Specsavers!")
 
 run()
-
-
-

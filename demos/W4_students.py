@@ -1,20 +1,13 @@
 def generate():
     name = input("Enter name: ")
-    mrk = float(input("Enter the mark: "))
+    mrk  = float(input("Enter the mark: "))
     return name, mrk
-
-# print(generate())
-# x = generate()
-# print(x)
-# print(type(x))
 
 def list_of_studs(n):
     stud_list = []
     for i in range(n):
         stud_list.append(generate())
     return stud_list
-
-#print(list_of_studs(3))
 
 
 def average(lista = []):
@@ -36,7 +29,7 @@ def run():
         elif opt == 2:
             print(f"The average mark is {average(s_list):.2f}")
         elif opt == 3:
-            name == input("Whose mark is to be changed? ")
+            name = input("Whose mark is to be changed? ")
             for student in s_list:
                 if name == student[0]:
                     n_mrk = float(input("Enter new mark: "))
@@ -45,10 +38,4 @@ def run():
         else:
             print("No such option. Try again. Fool!")
 
-#never forget to put the run option at end
-
 run()
-
-
-
-

@@ -1,10 +1,10 @@
 def shop():
-    items = {"carrots": 0.25, "bread": 1.55, "eggs": 2.99, "milk": 1.59, "juice": 3.99}
+    items = {"carrot": 0.25, "bread" : 1.55, "eggs" : 2.99, "milk" : 1.59, "juice" : 3.99}
     return items
-def view_all(products={}):
-    for x, y in products.items():
-        print(f"{x}--------{y}")
 
+def view_all(products={}):
+    for x,y in products.items():
+        print(f"{x}--------{y}")
 
 def playing():
     d = shop()
@@ -22,7 +22,7 @@ def basket():
         product = input("Enter an item or \"stop\": ")
         if product.upper() == "STOP":
             break
-        q = int(input(f"Enter the quantity of {product}: "))
+        q = int(input(f"Enter quantity of {product}: "))
         for i in range(q):
             b.append(product)
     return b
@@ -38,7 +38,7 @@ def till(basket = []):
     return total
 
 def run():
-    print("Welcome to Kelly's Shop. Please look around. We are watching you.")
+    print("Welcome to Piotr's Shop. Pelase look around. We are watching you.")
     view_all(shop())
     b = basket()
     while True:

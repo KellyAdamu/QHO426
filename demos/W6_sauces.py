@@ -1,13 +1,10 @@
 def populate(path):
     with open(path, "w") as f:
         while True:
-            sauce = input("Enter a sauce you like[or \"stop\": ")
+            sauce = input("Enter a sauce you like[or \"stop\"]: ")
             if sauce.lower() == "stop":
                 break
             f.write(sauce + "\n")
-
-
-#populate("sauces/Piotr.txt")
 
 def reading(path):
     with open(path) as f:
@@ -15,4 +12,5 @@ def reading(path):
 
 reading("sauces/Piotr.txt")
 print("*"*20)
-reading("sauces/konrad.txt")
+reading("sauces/Konrad.txt")
+

@@ -8,6 +8,3 @@ for letter in word:
         print(letter, end = "")
 
 print(word.upper())
-
-
-
